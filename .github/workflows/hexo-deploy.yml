@@ -57,7 +57,7 @@ jobs:
           git config --global user.name $GIT_USER
           git config --global user.email $GIT_EMAIL
           # replace file with my blog config
-          cp _config.keep.yml themes/concise/_config.yml
+          cp _config.keep.yml themes/keep/_config.yml
 
       - name: Install dependencies
         run: |
