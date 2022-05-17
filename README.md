@@ -9,6 +9,7 @@
 - 当前的目录内设置了- GitHub Actions，具体见.github/workflows/hexo-deploy.yml
 - GitHub Actions 当私有仓库的 hexo-blog-sourcecode master 有内容 push 进来时（例如：主题文件，文章 md 文件、图片等），
   会触发 GitHub Actions 自动编译并部署到公共仓库 camillechang.github.io 的 master 分支。
+- 如果想修改主题的话，直接修改根目录下的\_config.keep.yml 就行，因为部署的时候，会替换原来的主题配置文件。
 - 最后需要手动在 Custom domain，添加一下 domain name,过一会就能用了。暂时还没有想到其他解决办法。
 
 # Note:
