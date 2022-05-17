@@ -12,6 +12,7 @@ env:
   THEME_BRANCH: master
   DEPLOY_REPO: camillechang/camillechang.github.io
   DEPLOY_BRANCH: master
+  CANME: www.camillechang.com
 
 jobs:
   build:
@@ -62,11 +63,6 @@ jobs:
       - name: Install dependencies
         run: |
           npm install
-
-      - name: Add custom CNAME
-        run: |
-          mkdir public
-          cp CNAME public/CNAME
 
       - name: Deploy hexo
         run: |
