@@ -8,7 +8,7 @@ on:
 env:
   GIT_USER: Camille
   GIT_EMAIL: hong13626@gmail.com
-  THEME_REPO: https://github.com/XPoet/hexo-theme-keep
+  THEME_REPO: XPoet/hexo-theme-keep
   THEME_BRANCH: master
   DEPLOY_REPO: camillechang/camillechang.github.io
   DEPLOY_BRANCH: master
