@@ -4,15 +4,27 @@ on:
     branches:
       - master # master 分支有 push 行为时就触发这个 action
 
+env:
+  PERSONAL_TOKEN: ${{ secrets.HEXO_DEPLOY }} # secret 名
+  PUBLISH_REPOSITORY: camillechang/camillechang.github.io # 公共仓库，格式：GitHub 用户名/仓库名
+  BRANCH: master # 分支，我这里是推送到wkxk/wkxk.github.io仓库里的master分支(根据自己的仓库进行填写)
+  PUBLISH_DIR: ./public # 部署 public 目录下的文件
+  THEME_REPO: https://github.com/XPoet/hexo-theme-keep
+  THEME_BRANCH: master
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source
         uses: actions/checkout@master
-        # 修改github action不管用的问题
+
+     - name: Checkout theme repo
+        uses: actions/checkout@v2
         with:
-          submodules: recursive
+          repository: ${{ env.THEME_REPO }}
+          ref: ${{ env.THEME_BRANCH }}
+          path: themes/keep
 
       - name: Setup Node.js
         uses: actions/setup-node@v1
@@ -20,11 +32,7 @@ jobs:
           node-version: '12'
 
       - name: Setup Hexo
-        env:
-          PERSONAL_TOKEN: ${{ secrets.HEXO_DEPLOY }} # secret 名
-          PUBLISH_REPOSITORY: camillechang/camillechang.github.io # 公共仓库，格式：GitHub 用户名/仓库名
-          BRANCH: master # 分支，我这里是推送到wkxk/wkxk.github.io仓库里的master分支(根据自己的仓库进行填写)
-          PUBLISH_DIR: ./public # 部署 public 目录下的文件
+
         run: |
           npm install hexo-cli -g
           npm install
