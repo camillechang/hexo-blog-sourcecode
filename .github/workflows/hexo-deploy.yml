@@ -1,20 +1,21 @@
-name: deploying Hexo project to GitHub pages
+name: CI
+
 on:
   push:
     branches:
-      - master # master 分支有 push 行为时就触发这个 action
+      - master
 
 env:
-  PERSONAL_TOKEN: ${{ secrets.HEXO_DEPLOY }} # secret 名
-  PUBLISH_REPOSITORY: camillechang/camillechang.github.io # 公共仓库，格式：GitHub 用户名/仓库名
-  BRANCH: master # 分支，我这里是推送到wkxk/wkxk.github.io仓库里的master分支(根据自己的仓库进行填写)
-  PUBLISH_DIR: ./public # 部署 public 目录下的文件
+  GIT_USER: Camille
+  GIT_EMAIL: hong13626@gmail.com
   THEME_REPO: https://github.com/XPoet/hexo-theme-keep
   THEME_BRANCH: master
+  DEPLOY_REPO: camillechang/camillechang.github.io
+  DEPLOY_BRANCH: master
 
 jobs:
   build:
-    name: build on node ${{ matrix.node_version }} and ${{ matrix.os }}
+    name: Build on node ${{ matrix.node_version }} and ${{ matrix.os }}
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -22,24 +23,46 @@ jobs:
         node_version: [12.x]
 
     steps:
-      - name: Checkout source
-        uses: actions/checkout@master
+      - name: Checkout
+        uses: actions/checkout@v2
 
-     - name: Checkout theme repo
+      - name: Checkout theme repo
         uses: actions/checkout@v2
         with:
           repository: ${{ env.THEME_REPO }}
           ref: ${{ env.THEME_BRANCH }}
           path: themes/keep
 
-      - name: Setup Hexo
+      - name: Checkout deploy repo
+        uses: actions/checkout@v2
+        with:
+          repository: ${{ env.DEPLOY_REPO }}
+          ref: ${{ env.DEPLOY_BRANCH }}
+          path: .deploy_git
 
+      - name: Use Node.js ${{ matrix.node_version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node_version }}
+
+      - name: Configuration environment
+        env:
+          HEXO_DEPLOY_PRI: ${{secrets.HEXO_DEPLOY}}
         run: |
-          npm install hexo-cli -g
+          sudo timedatectl set-timezone "Asia/Shanghai"
+          mkdir -p ~/.ssh/
+          echo "$HEXO_DEPLOY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+          git config --global user.name $GIT_USER
+          git config --global user.email $GIT_EMAIL
+          # replace file with my blog config
+          cp _config.theme.yml themes/concise/_config.yml
+
+      - name: Install dependencies
+        run: |
           npm install
 
-      - name: Deploy
-        # uses: theme-keep/hexo-deploy-github-pages-action@master # 使用专门部署 Hexo 到 GitHub pages 的 action
+      - name: Deploy hexo
         run: |
-          hexo clean
-          hexo deploy -g
+          npm run deploy
