@@ -63,10 +63,10 @@ jobs:
         run: |
           npm install
 
-      - name: Deploy hexo
-        run: |
-          npm run deploy
-
       - name: Add custom CNAME
         run: |
           cp CNAME public/CNAME
+
+      - name: Deploy hexo
+        run: |
+          npm run deploy
