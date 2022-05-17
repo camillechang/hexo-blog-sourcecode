@@ -65,6 +65,7 @@ jobs:
 
       - name: Add custom CNAME
         run: |
+          mkdir public
           cp CNAME public/CNAME
 
       - name: Deploy hexo
