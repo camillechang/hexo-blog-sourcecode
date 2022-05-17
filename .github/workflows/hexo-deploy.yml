@@ -14,7 +14,13 @@ env:
 
 jobs:
   build:
+    name: build on node ${{ matrix.node_version }} and ${{ matrix.os }}
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node_version: [12.x]
+
     steps:
       - name: Checkout source
         uses: actions/checkout@master
@@ -25,11 +31,6 @@ jobs:
           repository: ${{ env.THEME_REPO }}
           ref: ${{ env.THEME_BRANCH }}
           path: themes/keep
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v1
-        with:
-          node-version: '12'
 
       - name: Setup Hexo
 
