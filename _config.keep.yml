@@ -101,8 +101,8 @@ post:
 
   # Author label
   author_label:
-    enable: true
-    auto: true # if true, show Lv1, Lv2, Lv3... , If false, show custom label
+    enable: false
+    auto: false # if true, show Lv1, Lv2, Lv3... , If false, show custom label
     # label array item can be one or more
     custom_label_list: ['Trainee', 'Engineer', 'Architect', 'CTO', 'BOSS']
 
