@@ -12,7 +12,7 @@ env:
   THEME_BRANCH: master
   DEPLOY_REPO: camillechang/camillechang.github.io
   DEPLOY_BRANCH: master
-  CANME: www.camillechang.com
+  CNAME: camillechang.com
 
 jobs:
   build:

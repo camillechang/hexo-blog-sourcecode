@@ -18,4 +18,3 @@ categories: AWS
 - StackSets - can deploy to ultiple accounts/regions with single operation
 - Changeset - upcoming changes
 - Nested stacks - reuse
--
