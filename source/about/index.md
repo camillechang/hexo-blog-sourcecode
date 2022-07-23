@@ -2,7 +2,7 @@
 title: about
 date: 2022-05-17 22:13:56
 ---
+#### Welcome to my blog.
 
-# About me
-
-<div style="color: red;">About me</div>
+This blog will document my learning journery.
+My thoughts and my notes.
