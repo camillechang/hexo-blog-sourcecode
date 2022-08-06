@@ -18,3 +18,18 @@ categories: AWS
 - StackSets - can deploy to ultiple accounts/regions with single operation
 - Changeset - upcoming changes
 - Nested stacks - reuse
+
+### encryption
+- SSE-S3, s3 managed keys + AES 256
+- SSE-KMS, key can be customer generated and KMS mannaged
+- SSE-C, server side encryption + client manage keys + key isnot stored on AWS
+- Client side encryption
+### Some key services
+- WAF, SQL Injection/ Cross site scripting
+- OpsHubs, manage snow family, devices and local aws services
+- Artifact, report of ISO certificates and PCI.
+- cloudHSM, generated encrtyption keys
+- Config,
+- Shield, DDOS
+- Shield Advanced: DDOS protecting for scaling, layer3,4 and 7
+- Inspector, automate improve secrity assessment
