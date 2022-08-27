@@ -10,5 +10,6 @@ categories: AWS
 - SNS topics, subscription,
 - Cloudwatch alarms, metric filters
 
-### Sinlg or multiple choices, as long as you pratice it's ok to pass.
-- The only not good ting is PearsonVUE exam software too slow to respone. Made people lose patient to finish the test, so not sure I passed or not. Guess have to do it again.
+### Single or multiple choices, as long as you pratice it's ok to pass.
+- The only not good ting is PearsonVUE exam software too slow to respone.
+I cannot do my labs properly, and lose patient to finish the test in the end, so falied exam again.
