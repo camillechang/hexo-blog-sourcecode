@@ -44,6 +44,9 @@ categories: AWS
 		2. WORM, valut lock policy
 		3. Inventory report, audit/report replicaiton/encryption status of objects.
 		vs System manager inventory, collect metadata from EC2 and on prem.
+- Data Lifecycle Manager
+		1. automate the creation, retention, and deletion of Amazon Elastic Block Store (Amazon EBS) snapshots.
+		2. create a lifecycle policy that includes specific tags to back up EBS volumes on a specified schedule and for a specified retention period.
 ### AD
 - AWS AD, windows, VPN/ dircect connect
 - AD connector, trust relationship, AD->AWS
@@ -58,6 +61,8 @@ categories: AWS
 	1. cluster mode enabled, means that your data and read/write access to that data is spread across multiple Redis nodes.
 
 - Memcached, mutithread, add nodes, scaled vertically
+	1. scale up (use a node that has a larger memory footprint)
+	2. scale out (add additional nodes to the cluster) to accommodate the additional data.
 ### Some security and other services
 - WAF, SQL Injection/ Cross site scripting, filter web traffic based on IP addresses, HTTP body/headers, custom URIs
 - OpsHubs, manage snow family, devices and local aws services
