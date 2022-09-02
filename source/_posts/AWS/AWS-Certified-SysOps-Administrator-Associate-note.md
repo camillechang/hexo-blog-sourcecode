@@ -63,6 +63,7 @@ categories: AWS
 - Memcached, mutithread, add nodes, scaled vertically
 	1. scale up (use a node that has a larger memory footprint)
 	2. scale out (add additional nodes to the cluster) to accommodate the additional data.
+	3. does not support Multi-AZ for high availability.
 ### Some security and other services
 - WAF, SQL Injection/ Cross site scripting, filter web traffic based on IP addresses, HTTP body/headers, custom URIs
 - OpsHubs, manage snow family, devices and local aws services
@@ -84,3 +85,21 @@ categories: AWS
 ### VPC and Network
 - Direct connect + VPN = IPSec-encrypted private connection
 - Site to site VPN = on prem + amazon VPC
+
+## Others never remembered
+- Enhanced Networking, provides higher bandwidth, higher packet per second (PPS) performance, and consistently lower inter-instance latencies
+- Virtual Private Gateway,VPN endpoint ![VPG](../../imgs/VPG.png)
+- CloudFront Origin Shield, an additional layer in the CloudFront caching infrastructure that helps to minimize your origin’s load, improve its availability, and reduce its operating costs.缓存Better cache hit ratio,Better network performance and Reduced origin load.
+
+## System mamanger
+- Inventory, collects information about your instances and the software installed on them, helping you to understand your system configurations and installed applications.
+- Automation, automate common and repetitive IT operations and management tasks
+- Run Command, provides you safe, secure remote management of your instances at scale without logging into your servers, replacing the need for bastion hosts, SSH, or remote PowerShell
+
+
+## Cloudfront
+- Cache statistics,
+- Popular objects, what objects are frequently being accessed, and get statistics on those objects.
+- Top referrers
+- Usage report, the number of HTTP and HTTPS requests that CloudFront responds to from edge locations in selected regions.
+- Viewers, the physical devices (desktop computers, mobile devices) and about the viewers (typically web browsers)
