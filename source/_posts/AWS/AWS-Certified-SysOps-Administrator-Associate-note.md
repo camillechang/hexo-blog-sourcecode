@@ -44,6 +44,9 @@ categories: AWS
 		2. WORM, valut lock policy
 		3. Inventory report, audit/report replicaiton/encryption status of objects.
 		vs System manager inventory, collect metadata from EC2 and on prem.
+- Data Lifecycle Manager
+		1. automate the creation, retention, and deletion of Amazon Elastic Block Store (Amazon EBS) snapshots.
+		2. create a lifecycle policy that includes specific tags to back up EBS volumes on a specified schedule and for a specified retention period.
 ### AD
 - AWS AD, windows, VPN/ dircect connect
 - AD connector, trust relationship, AD->AWS
@@ -58,6 +61,9 @@ categories: AWS
 	1. cluster mode enabled, means that your data and read/write access to that data is spread across multiple Redis nodes.
 
 - Memcached, mutithread, add nodes, scaled vertically
+	1. scale up (use a node that has a larger memory footprint)
+	2. scale out (add additional nodes to the cluster) to accommodate the additional data.
+	3. does not support Multi-AZ for high availability.
 ### Some security and other services
 - WAF, SQL Injection/ Cross site scripting, filter web traffic based on IP addresses, HTTP body/headers, custom URIs
 - OpsHubs, manage snow family, devices and local aws services
@@ -79,3 +85,21 @@ categories: AWS
 ### VPC and Network
 - Direct connect + VPN = IPSec-encrypted private connection
 - Site to site VPN = on prem + amazon VPC
+
+## Others never remembered
+- Enhanced Networking, provides higher bandwidth, higher packet per second (PPS) performance, and consistently lower inter-instance latencies
+- Virtual Private Gateway,VPN endpoint ![VPG](../../imgs/VPG.png)
+- CloudFront Origin Shield, an additional layer in the CloudFront caching infrastructure that helps to minimize your origin’s load, improve its availability, and reduce its operating costs.缓存Better cache hit ratio,Better network performance and Reduced origin load.
+
+## System mamanger
+- Inventory, collects information about your instances and the software installed on them, helping you to understand your system configurations and installed applications.
+- Automation, automate common and repetitive IT operations and management tasks
+- Run Command, provides you safe, secure remote management of your instances at scale without logging into your servers, replacing the need for bastion hosts, SSH, or remote PowerShell
+
+
+## Cloudfront
+- Cache statistics,
+- Popular objects, what objects are frequently being accessed, and get statistics on those objects.
+- Top referrers
+- Usage report, the number of HTTP and HTTPS requests that CloudFront responds to from edge locations in selected regions.
+- Viewers, the physical devices (desktop computers, mobile devices) and about the viewers (typically web browsers)
