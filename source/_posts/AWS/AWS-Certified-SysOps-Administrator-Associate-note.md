@@ -50,7 +50,7 @@ categories: AWS
 - Aurora DB cluster,
 		- consists of one or more DB instances and a cluster volume that manages the data for those DB instances
 		-  cluster volume is a virtual database storage volume that spans multiple Availability Zones, with each Availability Zone having a copy of the DB cluster data.
-![AuroraDBCluster](../../imgs/AuroraDBCluster.png)
+	![AuroraDBCluster](../../imgs/AuroraDBCluster.png)
 		Link https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Aurora.Overview.html
 		- backtracking an Aurora DB cluster,"rewinds" the DB cluster to the time you specify
 ### AD
@@ -100,7 +100,8 @@ categories: AWS
 
 ## Others never remembered
 - Enhanced Networking, provides higher bandwidth, higher packet per second (PPS) performance, and consistently lower inter-instance latencies
-- Virtual Private Gateway,VPN endpoint ![VPG](../../imgs/VPG.png)
+- Virtual Private Gateway,VPN endpoint
+ ![VPG](../../imgs/VPG.png)
 - CloudFront Origin Shield, an additional layer in the CloudFront caching infrastructure that helps to minimize your origin’s load, improve its availability, and reduce its operating costs.缓存Better cache hit ratio,Better network performance and Reduced origin load.
 - warm pool is a pool of pre-initialized EC2 instances that sits alongside an Auto Scaling group
 
