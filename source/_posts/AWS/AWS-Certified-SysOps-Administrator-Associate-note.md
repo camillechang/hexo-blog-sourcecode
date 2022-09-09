@@ -44,6 +44,8 @@ categories: AWS
 		2. WORM, valut lock policy
 		3. Inventory report, audit/report replicaiton/encryption status of objects.
 		vs System manager inventory, collect metadata from EC2 and on prem.
+		4. Transfer Acceleration is a bucket-level feature that enables fast, easy, and secure transfers of files over long distances between your client and an S3 bucket.
+		5. Global Accelerator service does not work with S3. It only supports endpoints like application load balancers, network load balancers, EC2 instances, or elastic IP addresses.
 - Data Lifecycle Manager
 		1. automate the creation, retention, and deletion of Amazon Elastic Block Store (Amazon EBS) snapshots.
 		2. create a lifecycle policy that includes specific tags to back up EBS volumes on a specified schedule and for a specified retention period.
@@ -53,6 +55,7 @@ categories: AWS
 	![AuroraDBCluster](../../imgs/AuroraDBCluster.png)
 		Link https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Aurora.Overview.html
 		- backtracking an Aurora DB cluster,"rewinds" the DB cluster to the time you specify
+		- the Performance Insights feature in the Amazon Aurora Serverless database which will automatically connect to a new Aurora database instance while preserving application connections.
 ### AD
 - AWS AD, windows, VPN/ dircect connect
 - AD connector, trust relationship, AD->AWS
