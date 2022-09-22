@@ -10,7 +10,7 @@ categories: AWS
 
 1. A record - root domain, forward domain/sub domain to IPv4 address
 2. Alias - route traffic to AWS resources, such as CloudFront, S3.
-3. CNAME - map one domain to another, but not root domaian.
+3. CNAME - map one domain to another, but not root domain.
 4. AAAA - IPv6
 
 ### CloudFormation
@@ -21,13 +21,13 @@ categories: AWS
 
 ### encryption
 - SSE-S3, s3 managed keys + AES 256
-- SSE-KMS, key can be customer generated and KMS mannaged
+- SSE-KMS, key can be customer generated and KMS managed
 - SSE-C, server side encryption + client manage keys + key does not store on AWS
 - Client side encryption
 
 ### Volume and Storage
 - Volume gateway
-		1. Stored volumes, asynchronise copy ->s3, full volume to local gateway
+		1. Stored volumes, synchronize copy ->s3, full volume to local gateway
 		2. Cached Volumes, full volume ->s3, part volume to local cache.
 - File Gateway(NFS, SMB)
 - SSD
@@ -37,13 +37,13 @@ categories: AWS
 		1. Throughout optimized, st1
 		2. Cold HDD, sc1
 - RDS
-		1. Enhaced monitoring, metrics, cpu, memory, cheaper visibilty
-		2. Proxy pool share DB connections, improve performace.
-		3. Multi-AZ, high avaiblity.
+		1. Enhanced monitoring, metrics, cpu, memory, cheaper visibility
+		2. Proxy pool share DB connections, improve performance.
+		3. Multi-AZ, high availability.
 - S3
 		1. RTC(Replication time control), event notification <15mins
-		2. WORM, valut lock policy
-		3. Inventory report, audit/report replicaiton/encryption status of objects.
+		2. WORM, vault lock policy
+		3. Inventory report, audit/report replication/encryption status of objects.
 		vs System manager inventory, collect metadata from EC2 and on prem.
 		4. Transfer Acceleration is a bucket-level feature that enables fast, easy, and secure transfers of files over long distances between your client and an S3 bucket.
 		5. Global Accelerator service does not work with S3. It only supports endpoints like application load balancers, network load balancers, EC2 instances, or elastic IP addresses.
@@ -58,21 +58,21 @@ categories: AWS
 		- backtracking an Aurora DB cluster,"rewinds" the DB cluster to the time you specify
 		- the Performance Insights feature in the Amazon Aurora Serverless database which will automatically connect to a new Aurora database instance while preserving application connections.
 ### AD
-- AWS AD, windows, VPN/ dircect connect
+- AWS AD, windows, VPN/ direct connect
 - AD connector, trust relationship, AD->AWS
 - Simple AD, LDAP
 
 ### AMI
-- Linux paravitural AMI, are not supported in all AWS regions.
-- Hareware VM(HVM)
+- Linux parasitical AMI, are not supported in all AWS regions.
+- Hardware VM(HVM)
 
 ### ElasticCache(in-memory data store)
 - Redis, add shards, scales horizontally, support data types
 	1. cluster mode enabled, means that your data and read/write access to that data is spread across multiple Redis nodes.
-	2. richer data types and operations, great for laderboard, geospatial data
+	2. richer data types and operations, great for leaderboard, geospatial data
 
-- Memcached, mutithread, add nodes, scaled vertically
-	- key/vaule sotre faster than Redis
+- Memcached, multithread, add nodes, scaled vertically
+	- key/value store faster than Redis
   1. Scaling HORIZONTALLY:
 		1.1. scale out (Add Nodes to a Cluster)
 		1.2. scale in (Remove Nodes from a Cluster)
@@ -88,18 +88,18 @@ categories: AWS
 - OpsWorks, chef and puppet
 - Control tower,create accounts via account factory, enroll account, landing zone's managment accounts.
 - Artifact, report of ISO certificates and PCI.
-- cloudHSM, hardware security module, 3rd party support, generated encrtyption keys
+- cloudHSM, hardware security module, 3rd party support, generated encryption keys
 - Config,
 - Shield, DDOS
 - Shield Advanced: DDOS protecting for scaling, layer3,4 and 7
 - Inspector, automated vulnerability management service that continually scans workloads for software vulnerabilities and unintended network exposure.
 - GuardDuty, Intelligent threat detection.
-- Cloudtrail, who to blame, log API activity, data events and file intergrity validation.
+- Cloudtrail, who to blame, log API activity, data events and file integrity validation.
 - X-Ray, debug apps
 - Macie, machine learning to discover, monitor and protect s3. API keys, regulatory documents.
-- Glue, extract, transform, load (ETL) service, work with data lakes,redshift,RDS,crawer to populate glue catalog with tables.
+- Glue, extract, transform, load (ETL) service, work with data lakes,redshift,RDS,crawler to populate glue catalog with tables.
 - Trust Advisor, check service  usage>80%, real time guidance, cost
-- Cost Explorer, view costs, usage and forcast.
+- Cost Explorer, view costs, usage and forecast.
 
 ### VPC and Network
 - Direct connect + VPN = IPSec-encrypted private connection
@@ -129,8 +129,8 @@ categories: AWS
 - By default, the enableDnsHostNames is set to false for VPCs created using the AWS CLI
 - AWS Resource Access Manager (RAM) helps you securely share your resources across AWS accounts
 - Step Function, provides serverless orchestration for modern applications.
-- SWF,fully-managed state tracker and task coordinator servic
+- SWF,fully-managed state tracker and task coordinator service
 ## ALB
 - Connection draining, Auto Scaling will wait for outstanding requests to complete before terminating instances.
-- ASG lifecycle hook, can be used  to the auto-scaling group to pause an instance before it’s terminated.  perform custom actions during ec2 instances sacle-out or scale-in.
+- ASG lifecycle hook, can be used  to the auto-scaling group to pause an instance before it’s terminated.  perform custom actions during ec2 instances scale-out or scale-in.
 - EC2Rescue,a troubleshooting tool that you can run on your Amazon EC2 Windows Server instances.
