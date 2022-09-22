@@ -29,6 +29,7 @@ categories: AWS
 - Volume gateway
 		1. Stored volumes, asynchronise copy ->s3, full volume to local gateway
 		2. Cached Volumes, full volume ->s3, part volume to local cache.
+- File Gateway(NFS, SMB)
 - SSD
 		1. General purpose, gp3, gp2
 		2. Provisioned IOPS, io2(block express), io1
@@ -65,11 +66,13 @@ categories: AWS
 - Linux paravitural AMI, are not supported in all AWS regions.
 - Hareware VM(HVM)
 
-### ElasticCache
+### ElasticCache(in-memory data store)
 - Redis, add shards, scales horizontally, support data types
 	1. cluster mode enabled, means that your data and read/write access to that data is spread across multiple Redis nodes.
+	2. richer data types and operations, great for laderboard, geospatial data
 
 - Memcached, mutithread, add nodes, scaled vertically
+	- key/vaule sotre faster than Redis
   1. Scaling HORIZONTALLY:
 		1.1. scale out (Add Nodes to a Cluster)
 		1.2. scale in (Remove Nodes from a Cluster)
@@ -82,6 +85,7 @@ categories: AWS
 ### Some security and other services
 - WAF, SQL Injection/ Cross site scripting, filter web traffic based on IP addresses, HTTP body/headers, custom URIs
 - OpsHubs, manage snow family, devices and local aws services
+- OpsWorks, chef and puppet
 - Control tower,create accounts via account factory, enroll account, landing zone's managment accounts.
 - Artifact, report of ISO certificates and PCI.
 - cloudHSM, hardware security module, 3rd party support, generated encrtyption keys
@@ -95,7 +99,7 @@ categories: AWS
 - Macie, machine learning to discover, monitor and protect s3. API keys, regulatory documents.
 - Glue, extract, transform, load (ETL) service, work with data lakes,redshift,RDS,crawer to populate glue catalog with tables.
 - Trust Advisor, check service  usage>80%, real time guidance, cost
-- AWS inventory, collect metedata from EC2 and on-prme
+- Cost Explorer, view costs, usage and forcast.
 
 ### VPC and Network
 - Direct connect + VPN = IPSec-encrypted private connection
@@ -124,4 +128,9 @@ categories: AWS
 ## Little
 - By default, the enableDnsHostNames is set to false for VPCs created using the AWS CLI
 - AWS Resource Access Manager (RAM) helps you securely share your resources across AWS accounts
--
+- Step Function, provides serverless orchestration for modern applications.
+- SWF,fully-managed state tracker and task coordinator servic
+## ALB
+- Connection draining, Auto Scaling will wait for outstanding requests to complete before terminating instances.
+- ASG lifecycle hook, can be used  to the auto-scaling group to pause an instance before it’s terminated.  perform custom actions during ec2 instances sacle-out or scale-in.
+- EC2Rescue,a troubleshooting tool that you can run on your Amazon EC2 Windows Server instances.
