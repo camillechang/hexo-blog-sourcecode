@@ -1,7 +1,7 @@
 ---
 title: My AWS sysops eaxm history of 2022
 date: 2022-08-06 19:55:43
-tags: [AWS, Certification]
+tags: [AWS, Certification, sysops]
 categories: AWS
 ---
 

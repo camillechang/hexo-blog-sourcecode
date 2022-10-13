@@ -1,6 +1,6 @@
 ---
 layout: aws
-title: AWS Certified SysOps Administrator Associate note
+title: AWS Certified SysOps Administrator Associate notes
 date: 2022-07-23 16:11:49
 tags: [AWS, Certification]
 categories: AWS
