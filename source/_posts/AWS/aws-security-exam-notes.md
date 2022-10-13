@@ -1,6 +1,6 @@
 ---
-title: AWS Certified Security – Specialty exam (SCS-C01)
-date: 2022-10-13 22:08:10
+title: AWS Certified Security – Specialty exam (SCS-C01) notes
+date: 2022-10-13 20:08:10
 tags: [AWS, Certification, security]
 categories: AWS
 ---
