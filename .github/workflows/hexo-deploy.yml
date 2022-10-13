@@ -7,7 +7,6 @@ on:
 
 env:
   GIT_USER: Camille
-  GIT_EMAIL: hong13626@gmail.com
   THEME_REPO: XPoet/hexo-theme-keep
   THEME_BRANCH: master
   DEPLOY_REPO: camillechang/camillechang.github.io
@@ -25,17 +24,17 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Checkout theme repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           repository: ${{ env.THEME_REPO }}
           ref: ${{ env.THEME_BRANCH }}
           path: themes/keep
 
       - name: Checkout deploy repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           repository: ${{ env.DEPLOY_REPO }}
           ref: ${{ env.DEPLOY_BRANCH }}
@@ -55,7 +54,6 @@ jobs:
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan github.com >> ~/.ssh/known_hosts
           git config --global user.name $GIT_USER
-          git config --global user.email $GIT_EMAIL
           # replace file with my blog config
           cp _config.keep.yml themes/keep/_config.yml
 
