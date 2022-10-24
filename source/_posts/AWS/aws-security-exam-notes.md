@@ -6,6 +6,8 @@ categories: AWS
 ---
 ### S3
 - Glacier vault lock, vault lock policy, WORM(write once, read many times). Once locked, the policy can no longer be changed.
+- VPC gateway endpoint-> DynamoDB and S3
+- VPC interface endpoint -> other aws services.
 ### STS
 - Federation(typically Active Directory)
     - SAML
@@ -32,7 +34,7 @@ categories: AWS
 - does not use an IAM Role it uses the service principal `“cloudtrail.amazonaws.com"`.
 - Event history,-90days
 ### Cloud config
-- detect changes, not compromised access
+- detect  resources changes, not compromised access, not usage.
 - Auto Remediation feature automatically remediates non-compliant resources evaluated by AWS Config rules.
 ### CloudHSM
 - single tenancy, secure key store, cryptographic operations, tamper-resistant hardware security module
