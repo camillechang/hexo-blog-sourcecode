@@ -8,6 +8,7 @@ categories: AWS
 - Glacier vault lock, vault lock policy, WORM(write once, read many times). Once locked, the policy can no longer be changed.
 - VPC gateway endpoint-> DynamoDB and S3
 - VPC interface endpoint -> other aws services.
+- Object ACL, give grants to bucket owner.
 ### STS
 - Federation(typically Active Directory)
     - SAML
@@ -21,7 +22,7 @@ categories: AWS
 ### Cognito
 - Used for authenticating to web and mobile applications and is not related to Microsoft AD.
 - User Pools, user directories
-- Identity Pools, support **anonymous** guest users
+- Identity Pools, support **anonymous** guest users or unauthenticated access.
 ### IAM
 - trust policy, a required resource-based policy that is attached to a role in IAM. The principles that you can specify in the trust policy include users, roles, accounts, and services.
 - IAM Access Analyzer, helps you identify the resources in your organization and accounts, such as Amazon S3 buckets or IAM roles, **shared with an external entity**. This lets you identify unintended access to your resources and data.
@@ -36,13 +37,16 @@ categories: AWS
 ### Cloud config
 - detect  resources changes, not compromised access, not usage.
 - Auto Remediation feature automatically remediates non-compliant resources evaluated by AWS Config rules.
+- Provides a detailed list of resources defined in your aws account.
+- Can add custom rules using Lambda functions.
+- Trigger frequency is 1,3,6,12,24 hours.
 ### CloudHSM
 - single tenancy, secure key store, cryptographic operations, tamper-resistant hardware security module
 ### AWS inspector
 - CIS certified rules, automated security, vulnerabilities assessment service
-- tests the network accessibility of your EC2 instances and the security state of your applications that run on those instances.
+- tests the network accessibility of your **EC2** instances and the security state of your applications that run on those instances.
 ### Trust advisor
-
+- provides recommendations that help you follow AWS best practices. Trusted Advisor evaluates your account by using checks. These checks identify ways to optimize your AWS infrastructure, improve security and performance, reduce costs, and monitor service quotas.
 ## Infrastructure security
 ### KMS
 - key deletion time min 7 days
@@ -107,4 +111,11 @@ categories: AWS
 - Direct Connect + Virtual private gateway(VGW)=encryption in transit( IPsec-encrypted private connection)
 - Kinesis Data Streams uses TLS for all connections, so the data is encrypted in transit by default.
 - **Forward Secrecy (FS)** uses a derived session key to provide additional safeguards against the eavesdropping of encrypted data. This prevents the decoding of captured data, even if the secret long-term key is compromised. **ALB does not support custom security policies.**
+
+- Envelope encryption, encrypt plaintext data with a data key, and then encrypting the data key under another key.
+- Key pairs consist of a public key and a private key. Private key to create digital signature, public to validate signature. Key pairs can be used to SSH to aws EC2 instances.
+- AppSync enables subscriptions to synchronize data across devices.
+
+
+
 Refer: https://learn.acloud.guru/course/aws-certified-security-specialty/dashboard
