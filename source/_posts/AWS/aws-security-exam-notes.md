@@ -4,11 +4,32 @@ date: 2022-10-13 20:08:10
 tags: [AWS, Certification, security]
 categories: AWS
 ---
+
+### Exam area
+1. Incident Response -12%
+- Trusted Advisor, CloudFormation, Service Catalog, VPC Flow Logs, AWS Config, API gateway, CloudTrail, CloudWatch.
+
+2. Logging and Monitoring - 20%
+- CloudWatch, Config, CloudTrail， Inspector， Kinesis.
+
+3. Infrastructure Security -26%
+- Route53, WAF, CloudFront, Shield,
+
+4. IAM -20%
+
+5. Data Protection -22%
+- KMS, ACM, Secrets Manager,
+
 ### S3
 - Glacier vault lock, vault lock policy, WORM(write once, read many times). Once locked, the policy can no longer be changed.
 - VPC gateway endpoint-> DynamoDB and S3
 - VPC interface endpoint -> other aws services.
-- Object ACL, give grants to bucket owner.
+- Object ACLs, give grants to bucket owner, grant access to individual objects.
+- Bucket ACLS, grant log delivery group write permission to bucket.
+- Bucket policies, offer larger permissions than bucket ACLs.
+- S3 server-side encryption is used to protect data at rest.
+### CloudFront
+- Access logs for  source IP address, the original request, the referrer, and protocol information.
 ### STS
 - Federation(typically Active Directory)
     - SAML
@@ -43,10 +64,11 @@ categories: AWS
 ### CloudHSM
 - single tenancy, secure key store, cryptographic operations, tamper-resistant hardware security module
 ### AWS inspector
-- CIS certified rules, automated security, vulnerabilities assessment service
+- CIS benchmarks/ certified rules, automated security, vulnerabilities assessment service
 - tests the network accessibility of your **EC2** instances and the security state of your applications that run on those instances.
 ### Trust advisor
 - provides recommendations that help you follow AWS best practices. Trusted Advisor evaluates your account by using checks. These checks identify ways to optimize your AWS infrastructure, improve security and performance, reduce costs, and monitor service quotas.
+- can provide information on security groups for any sort of unrestricted access.
 ## Infrastructure security
 ### KMS
 - key deletion time min 7 days
@@ -57,15 +79,17 @@ categories: AWS
 - **Kms:ViaService**, used for ec2/RDS from Us-west region
 - **custom key store** is backed by AWS CloudHSM and imposes certain limitations. For example you **cannot import your own key material** into KMS keys or enable automatic rotation
 - **cryptographic erasure**, is when the encryption material used to encrypt the data is deleted. ensure that the key materials are backed up offline(**import key material into an AWS KMS ke**y) so you can perform a restore of the data.
+
 ### System manager
 - patch manager, can be used to scan systems, report compliance生成报告, identify vulnerable versions of software and then install the patches on the systems
 - Automation runbooks
+- systems Manager Compliance is used to scan instances for patch compliance and configuration inconsistencies. It is not used to monitor access policies of S3 buckets.
 ### Macie
 - machine learning to discover, classify and protect **PII** in **S3/cloudtrail**
 - Includes Dashboards, reports and alerting
 
 ### GuardDuty
-- threat **detection service** provides an accurate and easy way to continuously monitor and protect AWS accounts and workloads.
+- **threat detection service** provides an accurate and easy way to continuously monitor and protect AWS accounts and workloads.
 - can detect attacks such as application-level attacks. However, to offer the protection you would need to integrate with other services such as CloudWatch Events and Lambda to respond to incidents.
 - **Findings**, **Malicious and unauthorized behaviour**（resource affected, action )
 ### Security Hub
@@ -78,7 +102,9 @@ categories: AWS
 ### Artifact
 - central resource for compliance and security-related information
 
-### AWS Shield: DDOS
+### DDos mitigation on AWS
+- ELB, CloudWatch, ASG, Shield, Route53, WAF and CloudFront.
+
 
 ### AWS signer
 - only trusted code runs in your Lambda functions, create digitally signed packages for Lambda deployment.
@@ -103,8 +129,18 @@ categories: AWS
 - map your compliance requirements to AWS usage data with prebuilt and custom frameworks and automated evidence collection.
 ### AWS Firewall Manager
 - Works with WAF, Network Firewall, Shield, Route53 Resolver DNS Firewall.
+- network access control list (NACL) is an optional layer of security for your **VPC or subnet level** that acts as a firewall for controlling traffic in and out of one or more subnets, while sg for instances.
+### Kinesis
+- Log ingestion
+	- Kinesis data streams
+	- Kinesis Data firehose
+- Log analysis
+	- Kinesis data analytics
 
-
+### AWS Directory Service
+- AWS Managed Microsoft AD - A Microsoft Active Directory is needed in the AWS Cloud.
+- AD Connector - On-premises users need to access AWS services via AD.
+- Simple AD - Low-scale, low-cost basic Active Directory capability.
 
 
 ### Others
