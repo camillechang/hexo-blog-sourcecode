@@ -28,6 +28,11 @@ categories: AWS
 - Bucket policies, offer larger permissions than bucket ACLs.
 - S3 server-side encryption is used to protect data at rest.
 - Server access logging, provides detailed records for the requests that are made to a bucket
+- If bucket version is enabled, each object version should have a different encryption key.
+- s3 bucket can set **aws:referer** key to get request originate from specific webpages.
+### interface endpoint vs gateway endpoint
+- An interface endpoint is powered by PrivateLink, and uses an elastic network interface (ENI) as an entry point for traffic destined to the service.
+- A gateway endpoint serves as a target for a route in your route table for traffic destined for the service, only for s3 and DynamoDB.
 ### CloudFront
 - Access logs for  source IP address, the original request, the referrer, and protocol information.
 ### STS
@@ -44,6 +49,8 @@ categories: AWS
 - Used for authenticating to web and mobile applications and is not related to Microsoft AD.
 - User Pools, user directories, creating users or federating to social IdPs
 - Identity Pools, support **anonymous** guest users or unauthenticated access.
+- Use IAM OIDC identity provider When establish trust between an OIDC-compatible IdP and AWS account but cannot manage users.
+- Use IAM identity provider when establish trust between SAML-compatible IdP(ADFS and aws), that users in your org can access aws.
 ### IAM
 - trust policy, a required resource-based policy that is attached to a role in IAM. The principles that you can specify in the trust policy include users, roles, accounts, and services.
 - IAM Access Analyzer, helps you identify the resources in your organization and accounts, such as Amazon S3 buckets or IAM roles, **shared with an external entity**. This lets you identify unintended access to your resources and data.
@@ -101,7 +108,7 @@ categories: AWS
 ### GuardDuty
 - **threat detection service** provides an accurate and easy way to continuously monitor and protect AWS accounts and workloads.
 - can detect attacks such as application-level attacks. However, to offer the protection you would need to integrate with other services such as CloudWatch Events and Lambda to respond to incidents.
-- **Findings**, **Malicious and unauthorized behaviour**（resource affected, action )
+- **Findings**, **Malicious and unauthorized behaviour**（resource affected, action ), such as port scans.
 ### QuickSight
 - For Visualization, and only supports text file formats(.csv,.tsv .clf or .elf) stored in S3.
 
@@ -115,6 +122,7 @@ categories: AWS
 
 ### Artifact
 - central resource for compliance and security-related information
+- ISO, PCI, SOC reports, validate compliance of underlying aws infrastructure.
 
 ### DDos mitigation on AWS
 - ELB, CloudWatch, ASG, Shield, Route53, WAF and CloudFront.
@@ -177,6 +185,8 @@ categories: AWS
 - AppSync enables subscriptions to synchronize data across devices.
 - A Lambda function can be cofigured to connect to DynamoDB using private IPs by cofiguring the function in a VPC and using a VPC endpoint for the DynamoDB table.
 - All data flowing across AWS Regions over the AWS global network is automatically encrypted at the physical layer before it leaves AWS secured facilities. All traffic between AZs is also encrypted.
-
+- organization trail, you can create a trail that logs all events for all AWS accounts in that organization
+- Lambda authorizer, uses a bearer token authentication strategy such as OAuth or SAML, or that uses request parameters to determine the caller's identity. When a client makes a request to one of your API's methods, API Gateway calls your Lambda authorizer, which takes the caller's identity as input and returns an IAM policy as output.
 
 Refer: https://learn.acloud.guru/course/aws-certified-security-specialty/dashboard
+- https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-use-lambda-authorizer.html
