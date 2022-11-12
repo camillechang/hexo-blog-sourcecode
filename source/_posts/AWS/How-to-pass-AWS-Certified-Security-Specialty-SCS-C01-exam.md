@@ -7,6 +7,9 @@ categories: AWS
 
 It took me about one month to pass this exam. The key content is to understand different kinds of KMS.
 
+- Through practice, find out my weakness part and read more and practice more, understand why, then you will get the confidence to pass.
+- It's not that hard, just do it.
+
 ### Courses:
 
 https://digitalcloud.training/aws-certified-security-specialty/?utm_source=udemy&utm_medium=bonus&utm_campaign=security
