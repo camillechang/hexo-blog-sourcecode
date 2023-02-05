@@ -31,3 +31,8 @@ categories: AWS
 - After the exam, I felt relaxed. I didn't care about passing it, but I tried my best and had to focus on other things now.
 - 但是感觉很多题都只是知识点，除非真的用到了，否则感觉很没用。这个证书听着挺唬人的，其实一堆的服务，有可能一辈子都用不到。
 - To sum up, I feel that many questions are just knowledge points. Unless they are really used, they feel very useless. This certificate sounds bluffing, but in fact, in my whole life I think max 50% of the services will be used.
+
+- Sources that I used from Udemy:
+  1 Udemy practice exams from Neal Davis
+  2 Udemy course from Stephane Maarek
+  3 Turorials DOJO: AWS Certified Solutions Architect Professional Practice Exams 2022
