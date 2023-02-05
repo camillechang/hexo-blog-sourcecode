@@ -1,5 +1,5 @@
 ---
-title: CKA-exam-4Feb-2023
+title: CKA-exam-5Feb-2023
 date: 2023-02-04 11:18:40
 tags: [CKA, Certification]
 categories: CKA
