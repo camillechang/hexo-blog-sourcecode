@@ -1,5 +1,5 @@
 ---
-title: life
+title: Life
 date: 2023-02-25 21:47:31
 tags: [life, death]
 categories: life
@@ -16,7 +16,7 @@ categories: life
 
 ---
 
-- 去了国外，才发现不同人生的精彩，原来上学不是都必须学思想政治课的，原来你的长相普通，很多人也会说你漂亮。无论你从事什么工作，都会收到尊重。
+- 去了国外，才发现不同人生的精彩，原来上学不是都必须学思想政治课的，原来你的长相普通，很多人也会说你漂亮。无论你从事什么工作，都会受到尊重。
 - After visit to other countries, I realized that there are many different and exciting ways of life. I found out that not all schools require students to take courses on ideology and politics. I also discovered that even if you have an ordinary appearance, many people will think your are pretty. Regardless of the type of work you do, you will receive respect.
 - 开始捡起自己破烂的英语，开始慢慢的融入社会。真的融入，原来想得到什么还是需要靠自己不断努力的。
 - started picking up my broken English and slowly integrating into society. I realized that in order to achieve what I wanted, I needed to continuously work hard on my own, even when I had support. I truly became a part of society, and it was through my own effort.
