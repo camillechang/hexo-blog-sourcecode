@@ -85,7 +85,7 @@ kubeadm token create， node join
 
 ## Exam experience
 
-5/2/2023, exam check in is more smooth than AWS and easy to use.
+### 5/2/2023, exam check in is more smooth than AWS and easy to use.
 
 1. Exam questions are way simpler than the killer mock exam. Only 1/3 amount of questions of the mock one.
 2. Only regret things is I use laptop for easy, it's more hard for me do things quick and my eyes get blur. Next time, I will choose big monitor.
@@ -96,3 +96,7 @@ kubeadm token create， node join
    - cluster troubleshooting
    - clusterrole, rolebinding and serviceaccount
    - PV, PVC, pod
+
+### 6/2/2023
+
+24 hours later, after I got the exam result, I realized that I failed the exam. I missed some small details when I am doing the exam. There are some knowledge gaps.
