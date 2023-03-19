@@ -1,10 +1,10 @@
 ---
-title: barefoot investor advise for me
+title: 2023 March, barefoot investor advice for me
 date: 2023-03-13 15:47:20
 tags: Money
 ---
 
-Some tips I should remember from The barefoot investor.
+Some tips I should remember from book `The barefoot investor`.
 
 1. Banks - Choose the one that no month fee and can get higher interests
 2. Super - check annual fee and choose the one that invest on EFT index.
