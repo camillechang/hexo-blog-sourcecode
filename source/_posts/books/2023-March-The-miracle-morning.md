@@ -1,5 +1,5 @@
 ---
-title: 2023 March The miracle morning 早起的奇迹
+title: The miracle morning 早起的奇迹
 date: 2023-03-17 21:47:07
 tags: [books, notes]
 categories: books

@@ -1,7 +1,8 @@
 ---
 title: 2023 March, barefoot investor advice for me
 date: 2023-03-13 15:47:20
-tags: Money
+tags: [books, investment]
+categories: books
 ---
 
 Some tips I should remember from book `The barefoot investor`.
