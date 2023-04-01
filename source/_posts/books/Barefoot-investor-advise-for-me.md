@@ -1,5 +1,5 @@
 ---
-title: 2023 March, barefoot investor advice for me
+title: Barefoot investor advice for me
 date: 2023-03-13 15:47:20
 tags: [books, investment]
 categories: books
