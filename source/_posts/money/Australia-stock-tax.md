@@ -5,17 +5,39 @@ tags: [Investment, money]
 categories: money
 ---
 
-### 股票基金需要交的税
+### 一些概念
 
 1 Capital gain 资本增值
 2 Dividend -股票分红
 3 Distribution - 基金分红
+4 Dividend reinvestment plans(DRP)
+5 SP/ASX200, Australia’s benchmark share market index
 
-### Capital gain tax
+- BlackRock - IOZ
+- State Street - SPDR
+- SPDR - BetaShares
+- A200 - Vanguard - VAS
+
+6 Hedged EFT, the ETF issuer has converted the underlying assets from their home currency to $AUD. The exchange rate is locked in at a certain price and won't be subject to currency movements.
+
+- 不受汇率影响
+- 长期来说，货币波动对投资回报影响很小。如果长期投资，可以忽略货币波动，选择 unhedged 股票；短期投资，追求稳定，可以选择 hedged 股票
+
+### capital gains tax (CGT) 资产增值税
+
+- 投资增值，且卖出后产生的税
+- There is a capital gains tax (CGT) discount of 50% for Australian individuals who own an asset for 12 months or more. 鼓励长期投资
+- You cannot deduct a net capital loss from your income but you can carry it forward and deduct it from capital gains in later years. There is no time limit on how long you can carry forward a net capital loss. 亏钱卖，可以在之后的财年抵消收入
+
+### 股票收益
+
+1 股票增值- 差价
+2 股票分红
 
 ### Franking credit
 
-分红收入+其他收入=总收入
+- In a nutshell, a franking credit (also known as an imputation credit) represents the tax a business has already paid on its profits in Australia. Dividends are typically funded from profits, so the dollars paid to investors have already been taxed.
+- 分红收入+其他收入=总收入
 
 ### bond 债券
 
@@ -41,3 +63,4 @@ categories: money
 
 From videos:
 https://www.youtube.com/watch?v=5R4aVgnhAnQ
+https://www.youtube.com/watch?v=BJv4GSLazC4
