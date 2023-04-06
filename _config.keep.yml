@@ -15,7 +15,7 @@ style:
   primary_color: '#0066CC'
 
   # Avatar (You can use local image or image external link)
-  avatar: /images/logo.svg
+  avatar: /images/logo.jpg
 
   # Favicon (You can use local image or image external link)
   favicon: /images/cat.svg
