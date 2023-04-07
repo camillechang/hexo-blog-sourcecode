@@ -5,4 +5,4 @@ tags:
 ---
 
 Tips: Don't choose CKS linufoundation course, it's text-based.
-CKS is harder that I thought.
+CKS is harder than I thought.

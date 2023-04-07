@@ -94,9 +94,9 @@ post:
   # Dependencies: hexo-wordcount (npm install hexo-wordcount)
   # See: https://github.com/willin/hexo-wordcount
   word_count:
-    enable: false
-    wordcount: false # word count, one article
-    min2read: false # time to read, one article
+    enable: true
+    wordcount: true # word count, one article
+    min2read: true # time to read, one article
 
   # Author label
   author_label:
@@ -161,15 +161,15 @@ local_search:
 # Comment plugin
 # ---------------------------------------------------------------------------------------
 comment:
-  enable: false
-  use: valine # values: valine | gitalk | twikoo
+  enable: true
+  use: gitalk # values: valine | gitalk | twikoo
 
   # Valine
   # See: https://github.com/xCss/Valine
-  valine:
-    appid: # your leancloud application appid
-    appkey: # your leancloud application appkey
-    placeholder: # your placeholder
+  # valine:
+  #   appid: # your leancloud application appid
+  #   appkey: # your leancloud application appkey
+  #   placeholder: # your placeholder
 
   # Gitalk
   # See: https://github.com/gitalk/gitalk
@@ -181,9 +181,9 @@ comment:
 
   # Twikoo
   # See: https://github.com/imaegoo/twikoo
-  twikoo:
-    env_id: # Tencent Cloud environment id
-    region: # environment region. If select Guangzhou, fill in "ap-guangzhou".
+  # twikoo:
+  #   env_id: # Tencent Cloud environment id
+  #   region: # environment region. If select Guangzhou, fill in "ap-guangzhou".
 
 # ---------------------------------------------------------------------------------------
 # RSS
@@ -197,7 +197,7 @@ rss:
 # Lazyload image
 # ---------------------------------------------------------------------------------------
 lazyload:
-  enable: false
+  enable: true
 
 # ---------------------------------------------------------------------------------------
 # CDN
