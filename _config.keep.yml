@@ -6,7 +6,7 @@ base_info:
   author: Camille Chang
   url: https://keep.xpoet.cn/
   # Logo image (You can use local image, image external link or don’t fill)
-  logo_img:
+  logo_img: /images/cat.svg
 # ---------------------------------------------------------------------------------------
 # Theme style settings
 # ---------------------------------------------------------------------------------------
@@ -15,7 +15,7 @@ style:
   primary_color: '#0066CC'
 
   # Avatar (You can use local image or image external link)
-  avatar: /images/logo.jpg
+  avatar: /images/cat.svg
 
   # Favicon (You can use local image or image external link)
   favicon: /images/cat.svg
@@ -31,21 +31,21 @@ style:
 
   # Mouse hover
   hover:
-    shadow: false # shadow effect when the mouse hover
-    scale: false # scale effect when the mouse hover
+    shadow: true # shadow effect when the mouse hover
+    scale: true # scale effect when the mouse hover
 
   # First screen
   first_screen:
     enable: false
-    background_img: /images/bg.svg # You can use local image or image external link
+    background_img: /images/rainbow-bg.svg # You can use local image or image external link
     description: Keep writing and Keep loving.
 
   # Scroll style settings
   scroll:
     progress_bar:
-      enable: false
+      enable: true
     percent:
-      enable: false
+      enable: true
 
 # ---------------------------------------------------------------------------------------
 # Social contact link
@@ -116,16 +116,16 @@ code_copy:
 # Table of Contents in the Sidebar
 # ---------------------------------------------------------------------------------------
 toc:
-  enable: false
+  enable: true
 
   # Automatically add list number to toc.
-  number: false
+  number: true
 
   # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
-  expand_all: false
+  expand_all: true
 
   # If true, open TOC every time when you enter the article page
-  init_open: false
+  init_open: true
 
 # ---------------------------------------------------------------------------------------
 # Post copyright info
@@ -140,10 +140,10 @@ website_count:
   # busuanzi
   # See: http://ibruce.info/2015/04/04/busuanzi/
   busuanzi_count:
-    enable: false
-    site_uv: false
+    enable: true
+    site_uv: true
     site_pv: false
-    page_pv: false
+    page_pv: true
 
 # ---------------------------------------------------------------------------------------
 # Local Search
@@ -161,7 +161,7 @@ local_search:
 # Comment plugin
 # ---------------------------------------------------------------------------------------
 comment:
-  enable: true
+  enable: false
   use: gitalk # values: valine | gitalk | twikoo
 
   # Valine
@@ -203,13 +203,13 @@ lazyload:
 # CDN
 # ---------------------------------------------------------------------------------------
 cdn:
-  enable: false
+  enable: true
 
 # ---------------------------------------------------------------------------------------
 # PJAX
 # ---------------------------------------------------------------------------------------
 pjax:
-  enable: false
+  enable: true
 
 # ---------------------------------------------------------------------------------------
 # Footer settings
