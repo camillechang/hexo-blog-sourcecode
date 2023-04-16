@@ -43,9 +43,9 @@ style:
   # Scroll style settings
   scroll:
     progress_bar:
-      enable: true
+      enable: false
     percent:
-      enable: true
+      enable: false
 
 # ---------------------------------------------------------------------------------------
 # Social contact link
@@ -197,7 +197,7 @@ rss:
 # Lazyload image
 # ---------------------------------------------------------------------------------------
 lazyload:
-  enable: true
+  enable: false
 
 # ---------------------------------------------------------------------------------------
 # CDN
