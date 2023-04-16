@@ -80,10 +80,10 @@ menu:
 # ---------------------------------------------------------------------------------------
 home_article:
   category:
-    enable: false # show category in home page article block
+    enable: true # show category in home page article block
     limit: 3 # max number of categories shown in home page article block
   tag:
-    enable: false # show tags in home page article block
+    enable: true # show tags in home page article block
     limit: 5 # max number of tags shown in home page article block
 
 # ---------------------------------------------------------------------------------------
@@ -116,16 +116,16 @@ code_copy:
 # Table of Contents in the Sidebar
 # ---------------------------------------------------------------------------------------
 toc:
-  enable: true
+  enable: false
 
   # Automatically add list number to toc.
-  number: true
+  number: false
 
   # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
-  expand_all: true
+  expand_all: false
 
   # If true, open TOC every time when you enter the article page
-  init_open: true
+  init_open: false
 
 # ---------------------------------------------------------------------------------------
 # Post copyright info
@@ -140,10 +140,10 @@ website_count:
   # busuanzi
   # See: http://ibruce.info/2015/04/04/busuanzi/
   busuanzi_count:
-    enable: true
-    site_uv: true
+    enable: false
+    site_uv: false
     site_pv: false
-    page_pv: true
+    page_pv: false
 
 # ---------------------------------------------------------------------------------------
 # Local Search
@@ -151,7 +151,7 @@ website_count:
 # See: https://github.com/theme-next/hexo-generator-searchdb
 # ---------------------------------------------------------------------------------------
 local_search:
-  enable: true
+  enable: false
   trigger: auto
   top_n_per_article: 1
   unescape: false
@@ -203,13 +203,13 @@ lazyload:
 # CDN
 # ---------------------------------------------------------------------------------------
 cdn:
-  enable: true
+  enable: false
 
 # ---------------------------------------------------------------------------------------
 # PJAX
 # ---------------------------------------------------------------------------------------
 pjax:
-  enable: true
+  enable: false
 
 # ---------------------------------------------------------------------------------------
 # Footer settings
