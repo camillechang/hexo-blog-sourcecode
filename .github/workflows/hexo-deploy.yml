@@ -9,7 +9,7 @@ env:
   GIT_USER: Camille
   THEME_REPO: XPoet/hexo-theme-keep
   THEME_BRANCH: master
-  DEPLOY_REPO: camillechang/camillechang.github.io
+  DEPLOY_REPO: camillechang/hugo-theme-keep-forblog
   DEPLOY_BRANCH: master
   CNAME: camillechang.com
 

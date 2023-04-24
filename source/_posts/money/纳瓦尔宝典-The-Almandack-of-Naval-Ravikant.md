@@ -2,7 +2,7 @@
 title: 纳瓦尔宝典| The Almandack of Naval Ravikant
 date: 2023-04-17 17:45:30
 tags: [Investment, money, thoughts, notes]
-categories: [Investment, money, thoughts, notes]
+categories: books
 ---
 Some useful notes from the book:
 - 代码和媒体是不需要许可证就能使用的杠杆,你可以创建媒体和软件，让它们在你睡觉时为你工作。
