@@ -1,8 +1,8 @@
 ---
 title: Life
 date: 2023-02-25 21:47:31
-tags: [Life, death]
-categories: Life
+tags: [life, death]
+categories: life
 ---
 
 ## Life - in memory of my beloved uncle 25/2/2023

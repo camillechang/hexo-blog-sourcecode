@@ -138,9 +138,9 @@ copyright_info:
 # ---------------------------------------------------------------------------------------
 website_count:
   # busuanzi
-  # See: http://ibruce.info/2015/04/04/busuanzi/
+  # See: busuanzi.ibruce.info
   busuanzi_count:
-    enable: false
+    enable: true
     site_uv: true
     site_pv: true
     page_pv: false
