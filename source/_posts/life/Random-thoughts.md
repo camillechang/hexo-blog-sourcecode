@@ -1,8 +1,8 @@
 ---
 title: Reflections on Life 生活随想
 date: 2022-07-23 19:29:41
-tags: [life, oldtime]
-categories: life
+tags: [Life]
+categories: Life
 ---
 ### One
 > 开始清理以前的东西，翻到自己曾经的日记，2012.10.9这天，我写下了想去国外读书，但是没钱没有好的成绩的顾虑。
