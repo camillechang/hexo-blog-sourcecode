@@ -104,6 +104,8 @@ categories: AWS
 ### VPC and Network
 - Direct connect + VPN = IPSec-encrypted private connection
 - Site to site VPN = on prem + amazon VPC
+- Route table and NACLs, stateless - VPC level
+- Security group-> stateful, subnet level
 
 ## Others never remembered
 - Enhanced Networking, provides higher bandwidth, higher packet per second (PPS) performance, and consistently lower inter-instance latencies
@@ -112,13 +114,14 @@ categories: AWS
 - CloudFront Origin Shield, an additional layer in the CloudFront caching infrastructure that helps to minimize your origin’s load, improve its availability, and reduce its operating costs.缓存Better cache hit ratio,Better network performance and Reduced origin load.
 - warm pool is a pool of pre-initialized EC2 instances that sits alongside an Auto Scaling group
 
-## System mamanger
+## System manager
 - Inventory, collects information about your instances and the software installed on them, helping you to understand your system configurations and installed applications.
 - Automation, automate common and repetitive IT operations and management tasks
 - Run Command, provides you safe, secure remote management of your instances at scale without logging into your servers, replacing the need for bastion hosts, SSH, or remote PowerShell
 
 
 ## Cloudfront
+- Edge locations and local zones
 - Cache statistics,
 - Popular objects, what objects are frequently being accessed, and get statistics on those objects.
 - Top referrers
@@ -134,3 +137,6 @@ categories: AWS
 - Connection draining, Auto Scaling will wait for outstanding requests to complete before terminating instances.
 - ASG lifecycle hook, can be used  to the auto-scaling group to pause an instance before it’s terminated.  perform custom actions during ec2 instances scale-out or scale-in.
 - EC2Rescue,a troubleshooting tool that you can run on your Amazon EC2 Windows Server instances.
+## IAM
+- Identity based policy, attached to Identity(role, user and group)
+- resource based policy, attached to resources and additional principal
