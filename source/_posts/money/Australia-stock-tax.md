@@ -5,7 +5,7 @@ tags: [Investment, money]
 categories: money
 ---
 
-### 一些概念
+### 一些基本概念
 
 1 Capital gain 资本增值
 2 Dividend -股票分红

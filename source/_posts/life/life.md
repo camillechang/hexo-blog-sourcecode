@@ -1,5 +1,5 @@
 ---
-title: Life
+title: Life 不悔的人生
 date: 2023-02-25 21:47:31
 tags: [Life, death]
 categories: Life
