@@ -7,7 +7,8 @@ on:
 
 env:
   GIT_USER: Camille
-  THEME_REPO: camillechang/hugo-theme-keep-forblog
+  # THEME_REPO: camillechang/hugo-theme-keep-forblog
+  THEME_REPO: XPoet/hexo-theme-keep
   THEME_BRANCH: master
   DEPLOY_REPO: camillechang/camillechang.github.io
   DEPLOY_BRANCH: master
