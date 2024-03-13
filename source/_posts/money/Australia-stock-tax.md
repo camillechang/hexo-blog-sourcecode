@@ -34,11 +34,6 @@ categories: money
 1 股票增值- 差价
 2 股票分红
 
-### Franking credit
-
-- In a nutshell, a franking credit (also known as an imputation credit) represents the tax a business has already paid on its profits in Australia. Dividends are typically funded from profits, so the dollars paid to investors have already been taxed.
-- 分红收入+其他收入=总收入
-
 ### bond 债券
 
 - 固定收益类
