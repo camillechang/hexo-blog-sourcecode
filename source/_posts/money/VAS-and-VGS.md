@@ -1,5 +1,5 @@
 ---
-title: Vanguard VAS and VGS
+title: 基金ETF的选择
 date: 2024-03-12 20:10:28
 tags: [Investment, money]
 categories: money
@@ -11,10 +11,10 @@ categories: money
 - Hedged ETF，对冲基金，投资海外资产的方式，同时降低了由于汇率波动而产生的风险。这种类型的ETF通常受到需要投资海外资产但希望减少外汇风险的投资者的青睐。
 
 ### 买基金注意事项
-- 基金公司和规模
+- 基金公司规模和要买的基金的规模
 - 基金每年的管理费
-- 跟踪指数
-- 5年和10年的表现
+- 跟踪指数 and top10 holdings
+- 5年和10年的表现和回报
 - 汇率波动是否影响
 - 破除本地偏好，投资全球市场，分散分险
 
@@ -40,12 +40,24 @@ From link https://www.vanguard.com.au/adviser/learn/vas-and-vgs
   - 澳元汇率上涨会对VGS指数的表现产生负面影响.
   - 如果要在VGS 或 VGAD之间二选一的话，如果当时澳元处于低位，就应该投VGAD，反过来如果澳元在高位，就应该投VGS。Refer: https://sydneyuberer.com/vgad-vanguard-hedged-etf-vgad-vs-vgs/
 
-### S&P500（标普500）
+### S&P500（标普500强）
 - 长期投资，10年以上持有。
-- 自带换血，长期能跑赢大盘。
+- capitalization-weighted index, 市值更大的公司所占的权重更大.
+- 一直在更新，长期能跑赢大盘。
 - Vanguard S&P 500 ETF，- VOO
-- IVV – iShares S&P 500 ETF
+- `IVV` – iShares S&P 500 ETF
+- `SPY`
+- 股市不是线性增长的，长期赚钱，短期波动大。
 
 ### VGE 新兴市场ETF
 - Vanguard FTSE Emerging Markets Shares ETF AUD
 - 新兴市场基金的投资对象通常包括发展中国家和地区，如中国、印度、巴西、俄罗斯、南非、墨西哥等。这些国家具有较高的经济增长潜力和市场活力，但同时也伴随着较高的风险和波动性。
+
+### VTS
+
+### VDHG - FOF(Fund of Funds)
+- Diversified，跟踪各种混合ETF
+- 简单高效，回报是全球市场的平均，不太适合追求高风险和高回报人群
+- 风险分散，自动资产平衡-低买高卖
+- VS DHHF（betashares公司）,  all-in-one investment solution, with a 100% allocation to shares
+
