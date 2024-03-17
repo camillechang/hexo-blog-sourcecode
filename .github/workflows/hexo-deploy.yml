@@ -54,7 +54,7 @@ jobs:
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan github.com >> ~/.ssh/known_hosts
           git config --global user.name $GIT_USER
-          git config --global user.emmail "hong13626@gmail.com"
+          git config --global user.email "hong13626@gmail.com"
           # replace file with my blog config
           cp _config.keep.yml themes/keep/_config.yml
 
