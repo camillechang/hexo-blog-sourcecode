@@ -5,20 +5,23 @@ tags: [Investment, money]
 categories: money
 ---
 ### 复利和时间对投资的重要性
-- 第一个10万的积累是最漫长的，坚持定投，滚雪球。
+- 第一个10万的积累是最漫长的，坚持定投，滚雪球。应该存入长期内也用不到的钱。
 - `People Tend To Overestimate What Can Be Done In One Year`
 - `To Underestimate What Can Be Done In Five Or Ten Years`
+- 要长期持仓 + 降低交易频率 + 不追涨杀跌 + 定投
 
 ### 一些基本概念
-- 需要交税的：
-1. Capital gain 资本增值
+1. Capital gain 资本增值，卖出后的盈利
 2. Dividend -股票分红
 3. Distribution - 基金分红
-
-4 Dividend reinvestment plans(DRP) 也需要报税，交易费用可以抵扣税务。
-- You can't claim a deduction for some costs related to purchasing your shares, such as brokerage fees and stamp duty, but you can include them in the cost base (cost of ownership - which you deduct from what you receive when you dispose of the shares) to work out your capital gain or capital loss.
-5 SP/ASX200, Australia’s benchmark share market index
-
+- 公司分红后，估计会降低
+4. Dividend reinvestment plans(DRP) 也需要报税，交易费用可以抵扣税务。
+  - You can't claim a deduction for some costs related to purchasing your shares, such as brokerage fees and stamp duty, but you can include them in the cost base (cost of ownership - which you deduct from what you receive when you dispose of the shares) to work out your capital gain or capital loss.
+  - 默认是现金分红，需要去share registry（eg CBA-> Linkmarket; VAS-> computershare） 更改，而不是你的股票交易平台。
+5. SP/ASX200, Australia’s benchmark share market index
+6. CHESS-sponsored,
+- 股票的所有权记录是通过电子形式存储和管理的，每一份股票都有一个唯一的电子编号，可以跟踪其所有者和交易历史。CHESS-sponsored 提供了一种安全、高效的方式来进行股票交易和结算，是澳大利亚证券市场的主要交易系统之一。
+- 即使交易平台倒闭，交易记录和资产还是安全的。
 - BlackRock - IOZ
 - State Street - SPDR
 - SPDR - BetaShares

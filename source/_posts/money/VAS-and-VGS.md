@@ -9,6 +9,8 @@ categories: money
 - Ex-entitlement date就是权益调整生效的日期。在这一天之后，买入该股票的投资者将不再享有分红或其他权益。换句话说，如果你在这个日期之后购买股票，你将不再有资格获得即将发放的权益。
 - Franking credits，当上市公司给股东分红的时候已经缴纳过公司所得税，股东收到股息后要以自己的边际税率（ marginal tax rate ）再交税
 - Hedged ETF，对冲基金，投资海外资产的方式，同时降低了由于汇率波动而产生的风险。这种类型的ETF通常受到需要投资海外资产但希望减少外汇风险的投资者的青睐。
+- declaration date, 宣布分红的日期 -> ex-dividend date(在这个日期之前买入股票，才能获得分红),- record data(确认日期)-payment date
+
 
 ### 买基金注意事项
 - 基金公司规模和要买的基金的规模
@@ -53,11 +55,25 @@ From link https://www.vanguard.com.au/adviser/learn/vas-and-vgs
 - Vanguard FTSE Emerging Markets Shares ETF AUD
 - 新兴市场基金的投资对象通常包括发展中国家和地区，如中国、印度、巴西、俄罗斯、南非、墨西哥等。这些国家具有较高的经济增长潜力和市场活力，但同时也伴随着较高的风险和波动性。
 
-### VTS
-
+### VTS,Vanguard U.S. Total Market Shares Index ETF
+### VEU, Vanguard All-World ex-U.S. Shares Index ETF (VEU)
 ### VDHG - FOF(Fund of Funds)
 - Diversified，跟踪各种混合ETF
 - 简单高效，回报是全球市场的平均，不太适合追求高风险和高回报人群
-- 风险分散，自动资产平衡-低买高卖
+- 风险分散，自动资产平衡-低买高卖Auto asset re-balancing
 - VS DHHF（betashares公司）,  all-in-one investment solution, with a 100% allocation to shares
 
+### DHHF- betashare 完全成长混合型
+- all-in-one
+
+### NDQ-Nasdaq 100 ETF ==
+### VEU.ax
+### 一次性定投 VS 一大笔资金
+- 如果有大笔资金，可以直接投入定投，不用分开。
+
+### VanEck - MVW,
+- major in Austarlia market
+### VanEck QUAL
+- 7成在美国，和其他国家
+### VanEck EMKT
+- 新兴市场发展中国家
