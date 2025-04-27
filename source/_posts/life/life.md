@@ -43,6 +43,5 @@ categories: Life
 - 人生苦短，及时行乐。
 > Life is short, so we should enjoy it while we can.
 
-
 以此文纪念我逝去的亲人，愿我们都有过不悔的人生
 >With this article, I commemorate my departed loved ones, hoping that we all have a life without regrets.
