@@ -18,7 +18,7 @@ categories: Life
 
 ---
 
-- 去了国外，才发现不同人生的精彩，原来上学不是都必须学思想政治课的，原来你的长相普通，很多人也会说你漂亮。无论你从事什么工作，都会受到尊重。
+- 去了国外，才发现不同人生的精彩，原来上学不是都必须学思想政治课的，原来你长相普通，很多人也会说你漂亮。无论你从事什么工作，都会受到尊重。
 >It wasn't until I finally had the opportunity to go abroad that I discovered the splendor of different life experiences. I realized that not all schools require ideological and political courses, and that having an ordinary appearance doesn't prevent people from complimenting your beauty. No matter what profession you're in, you will be respected.
 
 - 开始捡起自己破烂的英语，开始慢慢的融入社会。真的融入新的环境，原来想得到什么还是需要靠自己不断努力的。
