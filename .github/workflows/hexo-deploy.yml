@@ -63,8 +63,11 @@ jobs:
       - name: Install dependencies
         run: |
           npm install
-          npm run build
+
+      - name: Clean and build
+        run: |
           npm run clean
+          npm run build
 
       - name: Setup deploy repo and CNAME
         run: |
