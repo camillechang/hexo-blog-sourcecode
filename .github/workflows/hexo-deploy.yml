@@ -66,6 +66,11 @@ jobs:
           npm run build
           npm run clean
 
+      - name: Setup deploy repo and CNAME
+        run: |
+          mkdir -p public
+          echo "${{ env.CNAME }}" > public/CNAME
+
       - name: Deploy hexo
         run: |
           npm run deploy
