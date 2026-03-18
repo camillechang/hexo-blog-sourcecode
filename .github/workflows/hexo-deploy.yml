@@ -9,7 +9,7 @@ env:
   GIT_USER: Camille
   GIT_EMAIL: noreply@github.com
   THEME_REPO: camillechang/hugo-theme-keep-forblog
-  THEME_BRANCH: main
+  THEME_BRANCH: master
   DEPLOY_REPO: camillechang/camillechang.github.io
   DEPLOY_BRANCH: main
   CNAME: camillechang.com
