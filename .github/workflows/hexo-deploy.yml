@@ -11,7 +11,7 @@ env:
   THEME_REPO: camillechang/hugo-theme-keep-forblog
   THEME_BRANCH: master
   DEPLOY_REPO: camillechang/camillechang.github.io
-  DEPLOY_BRANCH: main
+  DEPLOY_BRANCH: master
   CNAME: camillechang.com
 
 jobs:
