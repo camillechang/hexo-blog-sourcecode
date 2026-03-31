@@ -3,7 +3,7 @@
 # ---------------------------------------------------------------------------------------
 base_info:
   title: Camille Blog
-  author: Camille Chang
+  author: Camille
   url: https://camillechang.github.io
   # Logo image (You can use local image, image external link or don’t fill)
   logo_img: /images/cat.svg
