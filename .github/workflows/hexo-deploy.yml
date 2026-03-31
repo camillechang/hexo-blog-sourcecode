@@ -12,7 +12,6 @@ env:
   THEME_BRANCH: master
   DEPLOY_REPO: camillechang/camillechang.github.io
   DEPLOY_BRANCH: master
-  CNAME: camillechang.github.io
 
 jobs:
   build:
@@ -68,11 +67,6 @@ jobs:
         run: |
           npm run clean
           npm run build
-
-      - name: Setup deploy repo and CNAME
-        run: |
-          mkdir -p public
-          echo "${{ env.CNAME }}" > public/CNAME
 
       - name: Deploy hexo
         run: |
