@@ -12,6 +12,17 @@
 - 如果想修改主题的话，直接修改根目录下的\_config.keep.yml 就行，因为部署的时候，会替换原来的主题配置文件。
 - 最后需要手动在 Custom domain，添加一下 domain name,过一会就能用了。暂时还没有想到其他解决办法。
 
+## camillechang.github.io：Pages 报错 `No such file or directory ... /docs`
+
+这条错误来自 **`camillechang.github.io` 仓库**里的 GitHub Pages 配置（Jekyll 在找不存在的 `docs` 目录），**改 hexo-blog-sourcecode 无法消除**，必须在**公开站仓库**里改。
+
+1. 打开 **https://github.com/camillechang/camillechang.github.io** → **Settings** → **Pages**。
+2. **Build and deployment** → **Source**：
+   - 选 **Deploy from a branch**（从分支发布）。
+   - **Branch**：`master`，**Folder**：**`/ (root)`**，**不要**选 **`/docs`**。
+3. 若当前 Source 是 **GitHub Actions**：到同一仓库 **Actions** 或代码里的 **`.github/workflows/`**，删掉或停用会跑 **Jekyll**、且工作目录是 **`docs`** 的 workflow（日志里出现 `Source: .../docs` 就是它在跑）。改完后再把 Pages 的 Source 改成上面第 2 步的「从分支 + 根目录」，与 Hexo `hexo deploy` 推到 `master` 根目录的方式一致。
+4. 站点根目录应有 **`CNAME`**（若用自定义域名）和 **`.nojekyll`**（由本仓库构建写入，避免 GitHub 再跑 Jekyll 处理静态文件）。
+
 # Note:
 
 最后需要手动在 Custom domain，添加一下 domain name,过一会就能用了。暂时还没有想到其他解决办法。
