@@ -2,7 +2,7 @@
 title: 澳洲房产相关
 date: 2023-04-01 18:52:56
 tags: [Investment, house]
-categories: money
+categories: Finance
 ---
 
 ### 楼花=off the plan,买期房

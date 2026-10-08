@@ -2,7 +2,7 @@
 title: 澳洲的股票，税和投资理财的一些知识
 date: 2023-03-22 21:22:33
 tags: [Investment, money]
-categories: money
+categories: Finance
 ---
 ### 复利和时间对投资的重要性
 - 第一个10万的积累是最漫长的，坚持定投，滚雪球。应该存入长期内也用不到的钱。

@@ -2,7 +2,7 @@
 title: 基金ETF的选择
 date: 2024-03-12 20:10:28
 tags: [Investment, money]
-categories: money
+categories: Finance
 ---
 
 ### 一些股票术语
