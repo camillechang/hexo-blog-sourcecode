@@ -1,41 +1,83 @@
 ---
-title: How to use hexo commands
+title: How to Use Hexo Commands
 date: 2022-08-06 19:55:43
 tags: [Hexo]
 categories: Hexo
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+## English Version
 
-## Quick Start
+Welcome to [Hexo](https://hexo.io/)! This is your first post. See the [documentation](https://hexo.io/docs/) for more information. If you encounter problems while using Hexo, consult the [troubleshooting guide](https://hexo.io/docs/troubleshooting.html) or ask on [GitHub](https://github.com/hexojs/hexo/issues).
 
-### Create a new post
+### Quick Start
+
+#### Create a New Post
 
 ``` bash
 $ hexo new "My New Post"
 ```
 
-More info: [Writing](https://hexo.io/docs/writing.html)
+More information: [Writing](https://hexo.io/docs/writing.html)
 
-### Run server
+#### Run the Server
 
 ``` bash
 $ hexo server
 ```
 
-More info: [Server](https://hexo.io/docs/server.html)
+More information: [Server](https://hexo.io/docs/server.html)
 
-### Generate static files
+#### Generate Static Files
 
 ``` bash
 $ hexo generate
 ```
 
-More info: [Generating](https://hexo.io/docs/generating.html)
+More information: [Generating](https://hexo.io/docs/generating.html)
 
-### Deploy to remote sites
+#### Deploy to Remote Sites
 
 ``` bash
 $ hexo deploy
 ```
 
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+More information: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+
+---
+
+## 中文版
+
+欢迎使用 [Hexo](https://hexo.io/)！这是你的第一篇文章。更多信息请参阅[文档](https://hexo.io/docs/)。如果使用 Hexo 时遇到问题，可以查阅[故障排除指南](https://hexo.io/docs/troubleshooting.html)，或在 [GitHub](https://github.com/hexojs/hexo/issues) 上提问。
+
+### 快速开始
+
+#### 创建新文章
+
+``` bash
+$ hexo new "My New Post"
+```
+
+更多信息：[写作](https://hexo.io/docs/writing.html)
+
+#### 运行服务器
+
+``` bash
+$ hexo server
+```
+
+更多信息：[服务器](https://hexo.io/docs/server.html)
+
+#### 生成静态文件
+
+``` bash
+$ hexo generate
+```
+
+更多信息：[生成](https://hexo.io/docs/generating.html)
+
+#### 部署到远程站点
+
+``` bash
+$ hexo deploy
+```
+
+更多信息：[部署](https://hexo.io/docs/one-command-deployment.html)
