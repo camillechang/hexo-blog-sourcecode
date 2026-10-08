@@ -3,8 +3,6 @@ title: The Rational Optimist
 date: 2023-04-24 19:13:52
 tags:
 ---
-## English Version
-
 ### Life Today Is Better Than Ever
 - Compared with earlier generations, we live much happier and more comfortable lives. We have air conditioning, comfortable beds, and a wide variety of food, so there is no need to be relentlessly pessimistic.
 - Humanity’s continuing progress is built on exchange, the specialisation and division of labour, and continual innovation.

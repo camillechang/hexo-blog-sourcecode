@@ -4,8 +4,6 @@ date: 2023-06-30 19:05:29
 tags: [DevOps, Nginx]
 categories: DevOps
 ---
-## English Version
-
 - NGINX is a reverse proxy server.
 
 ### NGINX vs Apache

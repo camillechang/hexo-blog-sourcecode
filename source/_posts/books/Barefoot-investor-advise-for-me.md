@@ -5,8 +5,6 @@ tags: [books, investment]
 categories: books
 ---
 
-## English Version
-
 Some tips I should remember from the book `The Barefoot Investor`.
 
 1. Banks: Choose one with no monthly fee that offers a higher interest rate.

@@ -4,8 +4,6 @@ date: 2023-11-12 09:41:26
 tags: [AWS, interview, codetest]
 categories: work
 ---
-## English Version
-
 1. EBS vs. instance store (instance-local storage)
    - EBS
      - EBS volumes are persistent. EBS is suitable for databases, file systems, and any critical data that must be quickly accessible and durable.

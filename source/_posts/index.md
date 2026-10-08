@@ -4,8 +4,6 @@ date: 2022-08-06 19:55:43
 tags: [Hexo]
 categories: Hexo
 ---
-## English Version
-
 Welcome to [Hexo](https://hexo.io/)! This is your first post. See the [documentation](https://hexo.io/docs/) for more information. If you encounter problems while using Hexo, consult the [troubleshooting guide](https://hexo.io/docs/troubleshooting.html) or ask on [GitHub](https://github.com/hexojs/hexo/issues).
 
 ### Quick Start

@@ -4,8 +4,6 @@ date: 2023-04-10 08:36:02
 tags: [Investment, money]
 categories: Finance
 ---
-## English Version
-
 ### My Thoughts
 The book is interesting and covers a great deal of basic knowledge about building wealth. However, accumulating the initial capital for investing often feels like the hardest part. If the sequence of events in the book is accurate, I admire the author: succeeding required him to think strategically.
 

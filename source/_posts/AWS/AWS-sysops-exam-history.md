@@ -5,8 +5,6 @@ tags: [AWS, Certification, sysops, tips]
 categories: AWS
 ---
 
-## English Version
-
 I took all the exams at home, using different operating systems (macOS, Windows 10, and Windows 11).
 
 ### First Attempt — Software Problem

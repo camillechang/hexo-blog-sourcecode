@@ -4,8 +4,6 @@ date: 2023-03-22 21:22:33
 tags: [Investment, money]
 categories: Finance
 ---
-## English Version
-
 ### Why Compounding and Time Matter in Investing
 - Accumulating the first $100,000 takes the longest. Keep investing regularly and let the snowball grow. Only invest money that you will not need for a long time.
 - `People Tend To Overestimate What Can Be Done In One Year`

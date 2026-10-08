@@ -4,8 +4,6 @@ date: 2023-11-12 09:41:07
 tags: [Linux, interview, codetest]
 categories: work
 ---
-## English Version
-
 1. How do you use the `tar` command to archive three files into `test.tar`?
    - `tar -cvf test.tar file1.txt file2.txt file3.txt`
    - `-c`: This option stands for “create,” indicating that you are creating a new archive.

@@ -4,8 +4,6 @@ date: 2023-02-05 14:55:59
 tags:
 ---
 
-## English Version
-
 Notes for this article have not been added yet.
 
 ---

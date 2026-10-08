@@ -4,8 +4,6 @@ date: 2024-02-12 20:18:01
 tags: [Investment, money, thoughts]
 categories: Finance
 ---
-## English Version
-
 - Our views about money are shaped by psychology and are subjective.
 - Your personal experience with money may represent only 0.00000001% of reality, yet it can account for 80% of how you think the world works. Two equally intelligent people can therefore hold different views about how and why recessions happen, how to invest, which issues deserve priority, and how much risk they can tolerate.
 - Luck and risk are like twins. They show that every outcome in life is influenced by forces beyond individual effort.

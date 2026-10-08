@@ -5,8 +5,6 @@ tags: [books, notes]
 categories: books
 ---
 
-## English Version
-
 ### If You Cannot Stand Out, You May Be Left Behind
 
 - From an economic perspective, only 5% of people successfully create a life of freedom, while the remaining 95% continue struggling in the mire. What should we do now to avoid joining the 95% who struggle throughout their lives, rise above a world of mediocrity, and become part of the successful 5%?

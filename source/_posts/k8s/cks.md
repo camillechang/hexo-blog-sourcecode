@@ -4,8 +4,6 @@ date: 2023-03-01 11:19:43
 tags:
 ---
 
-## English Version
-
 Tip: Do not choose the Linux Foundation CKS course if you do not want a text-based course.
 
 CKS is harder than I thought.

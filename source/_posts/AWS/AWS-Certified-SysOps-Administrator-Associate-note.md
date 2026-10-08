@@ -6,8 +6,6 @@ tags: [AWS, Certification]
 categories: AWS
 ---
 
-## English Version
-
 ### Route 53
 
 1. A record - root domain, forward domain/sub domain to IPv4 address

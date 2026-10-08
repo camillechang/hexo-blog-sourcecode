@@ -5,8 +5,6 @@ tags: [CKA, Certification]
 categories: CKA
 ---
 
-## English Version
-
 ### View resources
 
 - Use `k api-resources ` to get the names of Kubernetes resources.

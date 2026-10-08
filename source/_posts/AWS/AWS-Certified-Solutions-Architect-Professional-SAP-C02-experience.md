@@ -5,8 +5,6 @@ tags: [AWS, Certification]
 categories: AWS
 ---
 
-## English Version
-
 ### First SAP-C02 Attempt
 
 - I scored 728; one more correct answer would have been enough to pass. The main reason was that, after finishing quickly, I did not review all the questions for anything I might have missed. I assumed I could simply retake the exam for free.

@@ -5,8 +5,6 @@ date: 2022-10-24 20:49:16
 tags: [books, notes]
 categories: books
 ---
-## English Version
-
 ### 1. *Deep Work*: Deep Work Rules
 
 #### The Ideas

@@ -4,8 +4,6 @@ date: 2022-08-06 20:31:15
 tags: [DevOps, Docker]
 categories: DevOps
 ---
-## English Version
-
 ### 1. Docker vs VM (virtualization tools)
 
 |   |  Docker |  VM |

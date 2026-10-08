@@ -4,8 +4,6 @@ date: 2022-10-30 18:37:41
 tags: [AWS, Certification, Network]
 categories: AWS
 ---
-## English Version
-
 ### Exam
 
 **The passing score is 750. Of the 65 questions, 50 affect your score.**

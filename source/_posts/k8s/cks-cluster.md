@@ -4,8 +4,6 @@ date: 2023-03-01 15:08:00
 tags:
 ---
 
-## English Version
-
 ### Install a Kubernetes cluster on Ubuntu
 
 - Install three Ubuntu servers: one control-plane node and two worker nodes.

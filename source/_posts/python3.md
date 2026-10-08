@@ -4,8 +4,6 @@ date: 2022-09-10 21:02:22
 tags: [Python]
 categories: Python
 ---
-## English Version
-
 ### Basic Built-in Collection Data Types in Python
 
 1. **List**: ordered and mutable; allows duplicate members.

@@ -5,8 +5,6 @@ tags: [Investment, house]
 categories: Finance
 ---
 
-## English Version
-
 ### Buying Off the Plan
 - Be aware of potential negative-gearing traps.
 - Much of a property’s appreciation comes from the land, location, and space.

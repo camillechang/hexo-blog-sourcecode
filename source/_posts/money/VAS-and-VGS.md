@@ -5,8 +5,6 @@ tags: [Investment, money]
 categories: Finance
 ---
 
-## English Version
-
 ### Share-Market Terms
 - The ex-entitlement date is the date on which an entitlement adjustment takes effect. Investors who buy on or after this date are not entitled to the upcoming dividend or other benefit.
 - Franking credits represent Australian company tax already paid on profits distributed as dividends. Shareholders include the grossed-up dividend in taxable income, claim the franking credit, and ultimately pay tax according to their marginal tax rate.

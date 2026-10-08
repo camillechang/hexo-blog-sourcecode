@@ -4,8 +4,6 @@ date: 2023-04-10 08:36:02
 tags: [Habits, success]
 categories: books
 ---
-## English Version
-
 ### Starting Point
 - Fear and insecurity about life.
 - A “get it now” mentality.

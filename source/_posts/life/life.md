@@ -5,8 +5,6 @@ tags: [Life, death]
 categories: Life
 ---
 
-## English Version
-
 ### Life — In Memory of My Beloved Uncle, 25/2/2023
 
 - In the first half of my life, I never thought about the meaning of life. I simply followed the expected path, waiting to grow up, go to school, work, get married, and have children, as if that were simply how life was meant to unfold.

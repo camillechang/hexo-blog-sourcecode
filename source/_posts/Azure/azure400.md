@@ -4,8 +4,6 @@ date: 2023-01-03 18:17:30
 tags:
 ---
 
-## English Version
-
 I received a free exam voucher from last year's `microsoft ignite challenge 2022`. After reviewing the exam topics, I found that this exam focuses only on using Azure DevOps software and is not as useful as other exams. It is better to have a basic understanding of Azure first.
 
 My plan is to start with the Azure 104 course (one week, 22 hours), then take the 400 course (one week, 22 hours), followed by the 400 exam and finally the 104 exam. Let's see whether I can complete the plan as expected.

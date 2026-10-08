@@ -5,8 +5,6 @@ tags: [AWS, Certification, security]
 categories: AWS
 ---
 
-## English Version
-
 ### Exam Areas
 
 1. Incident Response -12%

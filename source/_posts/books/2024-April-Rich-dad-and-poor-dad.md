@@ -5,8 +5,6 @@ tags: [books, investment]
 categories: books
 ---
 
-## English Version
-
 ### Lesson One: The Rich Do Not Work for Money
 
 - Find ways to make money generate more money instead of working for a fixed salary and paying taxes. Financial freedom is reached when passive income covers your needs.

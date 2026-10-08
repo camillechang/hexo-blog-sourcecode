@@ -4,8 +4,6 @@ date: 2023-11-12 09:41:36
 tags: [git, interview, codetest]
 categories: work
 ---
-## English Version
-
 1. `git clean` removes untracked files from the working tree. Use this command cautiously because it permanently deletes those files.
    - To see which files would be removed without actually deleting them, run: `git clean -n`
    - To remove untracked files, excluding directories, use: `git clean -f`

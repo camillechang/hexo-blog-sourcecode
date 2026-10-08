@@ -4,8 +4,6 @@ date: 2023-04-17 17:45:30
 tags: [Investment, money, thoughts, notes]
 categories: books
 ---
-## English Version
-
 Some useful notes from the book:
 
 - Wealth is having assets that earn while you sleep.

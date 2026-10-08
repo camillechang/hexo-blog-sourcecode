@@ -5,8 +5,6 @@ tags: [Life]
 categories: Life
 ---
 
-## English Version
-
 ### One
 
 > I started clearing out some old belongings and came across a diary I once kept. On October 9, 2012, I wrote that I wanted to study abroad but worried that I did not have enough money or good enough grades.

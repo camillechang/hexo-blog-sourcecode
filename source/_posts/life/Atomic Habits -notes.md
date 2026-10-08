@@ -5,8 +5,6 @@ tags: [Life, thoughts, habits]
 categories: Life
 ---
 
-## English Version
-
 - Habits are the compound interest of self-improvement. Over time, a tiny improvement can create an astonishing difference. If you improve by 1% every day for a year, you will be 37 times better by the end.
 - Even with genuine effort and occasional bursts of motivation, maintaining a good habit for several days in a row is often difficult. Habits such as exercising, meditating, journaling, and cooking may be manageable for a day or two, but soon become a nuisance.
 - Yet once habits form, they follow us everywhere and are hard to shake—especially bad ones. Despite our strong intentions, it is still difficult to quit habits such as eating junk food, watching too much television, procrastinating, and smoking.

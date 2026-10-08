@@ -5,8 +5,6 @@ tags: [AWS, Certification, security, tips]
 categories: AWS
 ---
 
-## English Version
-
 It took me about one month to pass this exam. The key is to understand the different aspects of KMS.
 
 - Use practice questions to identify your weak areas. Read and practice more, and understand why each answer is correct. You will then gain the confidence to pass.
