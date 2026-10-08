@@ -38,7 +38,7 @@ style:
   first_screen:
     enable: true
     background_img: /images/hero-bg.svg # You can use local image or image external link
-    description: Notes on technology, money, books, and a life in progress.
+    description: 认真体验有限的人生，享受独处，勇敢去爱，也努力创造一点对世界有用的东西。
 
   # Scroll style settings
   scroll:
