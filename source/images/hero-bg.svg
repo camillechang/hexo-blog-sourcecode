@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Soft abstract gradient background</title>
+  <desc id="desc">A calm lavender, pink, and warm cream background with translucent circles.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5f3ff"/>
+      <stop offset="0.48" stop-color="#fdf2f8"/>
+      <stop offset="1" stop-color="#fff7ed"/>
+    </linearGradient>
+    <radialGradient id="lavender">
+      <stop offset="0" stop-color="#a78bfa" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="rose">
+      <stop offset="0" stop-color="#fb7185" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#fb7185" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="gold">
+      <stop offset="0" stop-color="#fbbf24" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#fbbf24" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#background)"/>
+  <circle cx="260" cy="170" r="430" fill="url(#lavender)"/>
+  <circle cx="1370" cy="180" r="390" fill="url(#rose)"/>
+  <circle cx="1020" cy="850" r="470" fill="url(#gold)"/>
+  <path d="M0 720C260 610 450 820 730 710s470-80 870 40v150H0Z" fill="#fff" opacity=".38"/>
+</svg>

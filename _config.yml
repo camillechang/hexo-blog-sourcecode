@@ -3,12 +3,14 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: Camille Blog
-description: Study note
-keywords:
+title: Camille Blog
+subtitle: Technology, money, books, and life
+description: Camille's notes on technology, cloud engineering, money, books, habits, and life.
+keywords: technology, cloud, DevOps, books, money, habits, life
 author: Camille
-language: en
+language:
+  - en
+  - zh-CN
 timezone: Australia/Sydney
 
 # URL

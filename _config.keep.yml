@@ -12,7 +12,7 @@ base_info:
 # ---------------------------------------------------------------------------------------
 style:
   # Theme primary color
-  primary_color: '#0066CC'
+  primary_color: '#7C3AED'
 
   # Avatar (You can use local image or image external link)
   avatar: /images/cat.svg
@@ -27,7 +27,7 @@ style:
   left_side_width: 260px
 
   # Content area max width
-  content_max_width: 920px
+  content_max_width: 1080px
 
   # Mouse hover
   hover:
@@ -36,16 +36,16 @@ style:
 
   # First screen
   first_screen:
-    enable: false
-    background_img: /images/rainbow-bg.svg # You can use local image or image external link
-    description: Keep writing and Keep loving.
+    enable: true
+    background_img: /images/hero-bg.svg # You can use local image or image external link
+    description: Notes on technology, money, books, and a life in progress.
 
   # Scroll style settings
   scroll:
     progress_bar:
-      enable: false
+      enable: true
     percent:
-      enable: false
+      enable: true
 
 # ---------------------------------------------------------------------------------------
 # Social contact link
@@ -69,7 +69,7 @@ menu:
   Home: /
   Archives: /archives
   Categories: /categories
-  # Tags: /tags
+  Tags: /tags
   # Links: /links
   About: /about
   # Changelog: /changelog
@@ -109,17 +109,17 @@ post:
 # Code copy
 # ---------------------------------------------------------------------------------------
 code_copy:
-  enable: false
-  style: default # values: default | mac
+  enable: true
+  style: mac # values: default | mac
 
 # ---------------------------------------------------------------------------------------
 # Table of Contents in the Sidebar
 # ---------------------------------------------------------------------------------------
 toc:
-  enable: false
+  enable: true
 
   # Automatically add list number to toc.
-  number: false
+  number: true
 
   # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
   expand_all: false
@@ -151,9 +151,9 @@ website_count:
 # See: https://github.com/theme-next/hexo-generator-searchdb
 # ---------------------------------------------------------------------------------------
 local_search:
-  enable: false
+  enable: true
   trigger: auto
-  top_n_per_article: 1
+  top_n_per_article: 3
   unescape: false
   preload: false # Preload the search data when the page loads
 
