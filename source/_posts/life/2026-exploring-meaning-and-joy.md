@@ -35,7 +35,15 @@ I don't think the problem is simply "not enough countries." Geography widens the
 
 **Two countries is already a life, not a failure of curiosity.** Preferring books over boarding passes is a valid way to explore. What I may still lack is not passport stamps but **rhythm**: small habits that return, people I see regularly, goals close enough to touch. That is what I am trying to build next—not to erase the big questions, but to give the empty afternoons something to lean on.
 
-The road is long. I do not know if tomorrow will come; but today we talked, I danced, I loved, I thought—and for now, that is enough.
+#### Showing Up: More Activities, More People
+
+Lately I've also been asking: **maybe I need to meet more people and widen my life a little**—not to chase a packed calendar, but so solitude is a choice more often than a default. When the happiness after dancing or a workout fades, I want more than silence at home; I want a few faces I recognize and something on the week that I am expected to show up for.
+
+I still don't know exactly which activities to join. That's okay for now. What I do know is the direction: **a small number of recurring things** (a class, a run, a book group, a room full of strangers who become familiar) instead of sampling ten new events once and never going back. I am getting ready to try—to go back to the same place often enough that "new person" turns into "oh, you're here again too."
+
+More books, more motion, and maybe more people in the same rhythm. I haven't figured out the list yet. But I'm willing to start.
+
+The road is long. I do not know if tomorrow will come; but today we talked, I danced, I loved, I thought—and I wrote down that next step, and for now, that is enough.
 
 ---
 
@@ -69,4 +77,12 @@ The road is long. I do not know if tomorrow will come; but today we talked, I da
 
 **两个国家，已经是一种人生，不是对好奇心的不及格。** 比起集邮式旅行，更想用书去探索，这本身也没关系。我可能缺的与其说是护照印章，不如说是**节奏**：会回来的小习惯、常见面的人、够得着的目标。接下来想建的，是这些——不是为了消灭那些大问题，而是给空着的下午，一点可以靠一靠的东西。
 
-路还长。明天会不会来，我不知道；但今天聊过天、跳过舞、爱过、想过、也写下这些——暂时就够了。
+### 接下来：多参加活动，多认识一些人
+
+写完这些，我又想：**也许我还需要多认识一些人，把生活的圈子慢慢撑大一点。** 不是为了把日程排满，而是希望寂寞不总是默认选项——跳完舞、运动完，开心退去之后，除了一个人回家，还能有几点熟悉的面孔、每周固定要去的地方。
+
+说实话，**我现在还不知道该参加什么样的活动。** 但方向大概是清楚的：少试很多「去一次就算了」的活动，多选一两样**会重复去的地方**——课时、跑步、读书会、任何让你愿意连续出现几周的事情。我想先做好「去出现」的准备，给自己一点时间，让陌生人变成「咦，你也又来了」。
+
+书还要继续读，身体还要继续动，圈子也试着一点点拓宽。具体参加什么，我还在想。但我愿意先迈出这一步。
+
+路还长。明天会不会来，我不知道；但今天聊过天、跳过舞、爱过、想过、写下这些，也写下「我准备去多走走、多见见人」——暂时就够了。
